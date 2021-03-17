@@ -1,0 +1,190 @@
+
+
+.skills-informacion{
+    display: grid;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    gap: 2rem;
+
+    .skills_medidores{
+        padding: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.774);
+
+        .skills{
+            color: $primario;
+            padding: 1rem;
+            font-weight: 700;
+            margin: 0 auto;
+        }
+
+    }
+
+}
+
+.skills-lista{
+
+    padding: 2rem;
+    list-style: none;
+    color: $primario;
+    font-weight: 900;
+    border-radius: 2rem;
+    margin-top: 0;
+
+    .barra{
+        background-color: $oscuro_uno;
+        display: block;
+        height: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.767);
+        border-radius: 3px;
+        box-shadow: 0 0 10px $secundario;
+    }
+    
+    .barra span{
+        height: 5px;
+        display: grid;
+        align-items: flex-start;
+        background-color: $primario;
+    }
+
+    
+
+    .tec-c{
+        width: 35%;
+        animation: tec-c 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-c{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 35%;
+        }
+    }
+
+    .tec-c-plus{
+        width: 40%;
+        animation: tec-c-plus 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-c-plus{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 40%;
+        }
+    }
+
+
+    .tec-c-sharp{
+        width: 50%;
+        animation: tec-c-sharp 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-c-sharp{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 50%;
+        }
+    }
+
+    .tec-html{
+        width: 80%;
+        animation: tec-html 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-html{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 80%;
+        }
+    }
+
+    .tec-css{
+        width: 60%;
+        animation: tec-css 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-css{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 60%;
+        }
+    }
+
+    .tec-javascript{
+        width: 30%;
+        animation: tec-javascript 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-javascript{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 30%;
+        }
+    }
+
+    .tec-php{
+        width: 20%;
+        animation: tec-php 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-php{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 20%;
+        }
+    }
+
+    .tec-sass{
+        width: 10%;
+        animation: tec-sass 50s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes tec-sass{
+        0%{
+            width: 0%;
+        }
+        5%{
+            width: 10%;
+        }
+    }
+
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    span{
+        text-transform: uppercase;
+    }
+
+}
+
+.git-icono:hover{
+    cursor: pointer;
+}
+

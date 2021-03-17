@@ -1,0 +1,48 @@
+
+.sobremi-informacion{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 1rem;
+
+    .sobremi_foto{
+        margin: 2rem auto 1rem auto;
+        border-radius: 75%;
+        border: 1px solid $primario;
+        width: 45rem;
+    }
+
+    .sobremi_descripcion{
+        padding: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        color: $claro;
+        background-color: rgba(0, 0, 0, 0.774);
+        border-radius: 10px;
+        border: 1px solid $primario;
+    }
+
+}
+
+
+
+
+
+@include tablet(){
+
+    .sobremi-informacion{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 0rem 5rem;
+
+        .sobremi__foto{
+            justify-content: right;
+        }
+    
+        .sobremi__descripcion{
+            text-align: left;
+        }
+        
+    }
+}

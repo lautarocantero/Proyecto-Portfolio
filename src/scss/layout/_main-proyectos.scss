@@ -1,0 +1,15 @@
+
+.contenedor-proyectos{
+    margin-top: -2rem;
+    padding: 0 1rem;
+}
+
+@include tablet(){
+    .contenedor-proyectos{
+        padding: 0 3rem;
+    }
+}
+
+.min-height{
+    min-height: 83rem;
+}

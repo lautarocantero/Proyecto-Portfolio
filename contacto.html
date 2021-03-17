@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preload" href="./build/css/app.css" as="style"> <!--cargalo lo más rapido que puedas como hoja de estilos-->
+    <link rel="stylesheet" href="./build/css/app.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Lautaro Cantero <span>Free Lancer</span></h1>  <!--es como un comodin-->
+    </header>
+    <div class="nav-bd">    <!--utilitie, primero aplica el color a todo el fondo y luego centra el contenido-->
+        <nav class="navegacion-principal contenedor"> <!--aca tengo dos clases en una sola etiqueta-->
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="#">Clientes</a>
+            <a href="contacto.html" class="seleccionado">Sobre Mi</a>
+        </nav>
+    </div>
+    <section class="portada portada_sobremi sombra">
+        <div class="contenido-portada">
+            <h2>Sobre mi</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                
+                
+                <p>Merlo, Buenos Aires</p>
+                <a href="#contactar" class="boton">Contactar</a>
+                <p>Universidad Tecnologica Nacional Haedo</p>
+        </div>
+    </section>
+    <main class="contenedor sombra proyectos sobremi">
+        <div class="sobremi-informacion">
+                <img class="sobremi_foto" src="/build/img/foto_uno.webp" alt="foto">
+            <div class="sobremi_descripcion">
+                <p>
+                    Mi nombre es Lautaro Cantero y soy un estudiante de  programacion de 21 años que se encuentra estudiando en la Universidad Tecnologica Nacional Haedo,
+                    Utilizo mi tiempo para aprender de nuevas tecnologias y métodos de programar. Actualmente buscando oportunidades laborales y trabajos free-lancer para afianzar los conocimientos adquiridos.
+                </p>
+            </div>
+        </div>
+
+        <div class="skills-informacion">
+            <div class="skills_medidores">
+                <h2 class="skills">skills</h2>
+                <ul class="skills-lista">
+                    <li><h4>C</h4><span class="barra"><span class="tec-c"></span></span></li>
+                    <li><h4>C++</h4><span class="barra"><span class="tec-c-plus"></span></span></li>
+                    <li><h4>C#</h4><span class="barra"><span class="tec-c-sharp"></span></span></li>
+                    <li><h4>HTML5 </h4><span class="barra"><span class="tec-html"></span></span></li>
+                    <li><h4>CSS</h4><span class="barra"><span class="tec-css"></span></span></li>
+                    <li><h4>JAVASCRIPT</h4><span class="barra"><span class="tec-javascript"></span></span></li>
+                    <li><h4>PHP</h4><span class="barra"><span class="tec-php"></span></span></li>
+                    <li><h4>SASS</h4><span class="barra"><span class="tec-sass"></span></span></li>
+                </ul>
+
+                <div class="git">
+                    <a href="https://github.com/lautarocantero" target="_blank">
+                    <span>Lautaro</span>
+                    <svg class="git git-icono" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff4500" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                    </svg> 
+                    <span>Cantero</span>
+                    </a>
+                </div>
+            </div>
+    </div>
+    </main>
+    <section>
+        <h2 id="contactar" class="subtitulo naranja">Contacto</h2>
+        <form action="" method="get" class="formulario">
+            <fieldset>      <!-- agrupar el contenido-->
+                <legend>Contactame</legend> <!--una leyenda-->
+
+                <div class="contenedor-campos">
+                    <div class="campo"> 
+                        <label>Nombre</label>
+                        <input type="text" class="input-text" placeholder="Tu nombre" name="nombre" id="">
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input type="tel" class="input-text" placeholder="Tu teléfono" name="telefono" id="">
+                    </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input type="email" class="input-text" placeholder="Tu correo" name="correo" id="">
+                    </div>
+                    <div class="campo">
+                        <label>Mensaje</label>
+                        <textarea placeholder="Tu mensaje..."></textarea>           <!--dejar un mensaje-->
+                    </div>
+                </div>
+                    <div class="alinear-derecha flex">
+                        <input class="boton boton-formulario w-100" type="submit" value="enviar">
+                    </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>&copy lautaro cantero</p>
+    </footer>
+
+
+</body>
+</html>

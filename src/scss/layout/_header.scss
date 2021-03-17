@@ -1,0 +1,55 @@
+
+.titulo{
+    margin: 1rem auto;
+    font-size: 3rem;
+    span{
+        font-size: 2rem; 
+    }
+}
+
+@include tablet(){
+    .titulo{
+        font-size: 4rem;
+    }
+}
+
+.nav-bd{
+    background-color: $secundario;
+}
+    
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+@include tablet(){
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+    
+    
+.navegacion-principal{
+
+    a{
+        color: $claro;
+        font-size: 2rem;
+        font-weight: $bold;
+        padding: 1rem;
+        text-decoration: none;
+
+        &:hover{
+            background-color: $terciario;
+            color: $oscuro; 
+        }
+    }
+
+    .seleccionado{
+        background-color: $terciario;
+    }
+
+}
+
+    

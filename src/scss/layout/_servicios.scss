@@ -1,0 +1,53 @@
+
+@include tablet(){
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 1rem ;
+    }
+}
+    
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $secundariooscuro;
+    border-radius: 10px;
+    margin-top: 1rem;
+
+    h3{
+        color: $claro;
+        font-weight: $delgada;
+        margin: 2rem auto;
+    }
+
+    p{
+        color: $claro;
+        line-height: 1.5;
+        padding: 2rem;
+        
+    }
+
+    .iconos {
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        display: flex;
+        background-size: cover;
+        background-position: center center;
+
+        &.diseño-web{
+            background-image: url(/build/img/desarrollo-web.webp);
+        }
+
+        &.aplicacion-web{
+            background-image: url(/build/img/aplicacion-web.webp);
+        }
+
+        &.e-comercer{
+            background-image: url(/build/img/e-comerce.webp);
+        }
+
+    }
+
+}

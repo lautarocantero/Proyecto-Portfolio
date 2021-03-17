@@ -1,0 +1,51 @@
+.portada{
+    background-image: url(/build/img/imagen-5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    position: relative;
+
+    .contenido-portada{
+        background-color:$violacio;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+
+    .contenido-portada h2,
+    .contenido-portada p{
+    color: $terciario;
+    }
+
+}
+    
+.boton {
+    background-color: $primario;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    border: none;
+
+    &:hover{
+        background-color: $oscuro;
+        color: $primario;
+        cursor: pointer;
+    }
+
+}
+    
+@include tablet(){
+    .boton{
+        width: auto;        /*se resetea si la pantalla es grande*/
+    }
+}

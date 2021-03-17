@@ -1,0 +1,68 @@
+{
+        "proyectos": [
+        {
+                "imagen" : "market",
+                "titulo":"Market de Ropa",
+                "descripcion": "Este proyecto presenta una tienda para poder comprar ropa online, seleccionando de un amplio catalogo con estilo minimalista, donde podras elegir el tamaño, y la cantidad de el producto que desees. Cuenta con una pagina general de la tienda, un apartado de nosotros y una pagina de compra de producto.",
+                "link": "https://market-lau.netlify.app/index.html",
+                "galeria": [
+                        "./build/img/market-ropa-index.webp",
+                        "./build/img/market-ropa-index-2.webp",
+                        "./build/img/market-ropa-index-3.webp",
+                        "./build/img/market-ropa-index-4.webp"
+                ]
+    
+        },
+        {
+                "imagen" : "caffe",
+                "titulo":"Blog de Café",
+                "descripcion": "En este proyecto se hace presente un Blog de Café, en el que se encuentran cursos de recetas de caffe y similares, ademas de un Blog con diferentes entradas y una pagina de contacto.",
+                "link": "https://blog-cafe-lau.netlify.app",
+                "galeria": [
+                    "./build/img/blog-cafe-index.webp",
+                    "./build/img/blog-cafe-index-2.webp",
+                    "./build/img/blog-cafe-index-3.webp",
+                    "./build/img/blog-cafe-index-4.webp"
+                    
+                 ]
+        },
+        {
+                "imagen" : "festival",
+                "titulo":"Festival Musical",
+                "descripcion": "Una pagina Web sobre un Festival Musical en donde aparece toda la informacion sobre el propio evento. Cuenta con galeria responsive. Es el primer proyecto en el que utilize Gulp y Sass.",
+                "link": "https://festival-musical-lau.netlify.app",
+                "galeria": [
+                        "./build/img/festival-index.webp",
+                        "./build/img/festival-index-2.webp",
+                        "./build/img/festival-index-3.webp",
+                        "./build/img/festival-index-4.webp"
+                         
+                ]
+        },
+        {
+                "imagen" : "barberia",
+                "titulo":"Barberia",
+                "descripcion": "Una pagina web en donde puedes seleccionar de un catalogo de cortes tu favorito y acceder a los servicios luego de llenar los campos, Gulp, Sass y Javascript.",
+                "link": "https://barberia-lau.netlify.app",
+                "galeria": [
+                        "./build/img/barberia-index.webp",
+                        "./build/img/barberia-index-2.webp",
+                        "./build/img/barberia-index-3.webp",
+                        "./build/img/barberia-index-4.webp"
+                ]
+        },
+        {
+                "imagen" : "upgrade",
+                "titulo":"Upgrade",
+                "descripcion": "Una pagina de compra de productos electronicos, cuenta con carrito que se actualiza en tiempo real.",
+                "link": "https://upgrade-lau.netlify.app/",
+                "galeria": [
+                        "./build/img/upgrade-index.webp",
+                        "./build/img/upgrade-index-2.webp",
+                        "./build/img/upgrade-index-3.webp",
+                        "./build/img/upgrade-index-4.webp"
+                ]
+        }
+    
+        ]
+    }
