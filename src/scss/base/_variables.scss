@@ -34,8 +34,12 @@ $violeta: #752F97;
 $violeta_oscuro: #491e5f;
 
 $naranja_claro: #f1651f;
-$naranja: #FF5300;
+$naranja: #ff4800;
 $naranja_oscuro: #c54404;
+
+$rojo_claro: #b82a20;
+$rojo: #ff1100ce;
+$rojo_oscuro: #f32314;
 
 $amarillo_claro:#FEF46D;
 $amarillo: #FFC127;
@@ -49,13 +53,14 @@ $claro: #fdfffc;
 
 //colores de este proyecto
 
-$blanco: #ffffff;
-$oscuro: #212121;
+$blanco: $claro;
+$oscuro: $oscuro_uno;
 $negro: #000000;
-$primario: #FF5300;
+$primario: $naranja;
 $secundario: #00abfb;
 $secundariooscuro: #068cca;
 $terciario: #ffc127;
+
 $gris: #757575;
 $violacio: #35125fb9;
 

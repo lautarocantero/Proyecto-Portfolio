@@ -335,7 +335,7 @@ h1 {
   font-size: 3.8rem;
   text-align: center;
   font-size: 3.8rem;
-  color: #FF5300; }
+  color: #ff4800; }
 
 h2 {
   font-size: 3.8rem; }
@@ -354,14 +354,8 @@ h2, h3 {
 main {
   background-color: #fdfffc; }
 
-.sombra {
-  -webkit-box-shadow: 10px 3px 8px 0px rgba(0, 0, 0, 0.46);
-  -moz-box-shadow: 10px 3px 8px 0px rgba(0, 0, 0, 0.46);
-  box-shadow: 10px 3px 8px 0px rgba(0, 0, 0, 0.46);
-  border-radius: 2rem; }
-
 .naranja {
-  color: #FF5300; }
+  color: #ff4800; }
 
 .subtitulo {
   margin: 2rem auto; }
@@ -403,10 +397,11 @@ main {
   font-size: 2rem;
   font-weight: 700;
   padding: 1rem;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
   .navegacion-principal a:hover {
     background-color: #ffc127;
-    color: #212121; }
+    color: #242423; }
 
 .navegacion-principal .seleccionado {
   background-color: #ffc127; }
@@ -432,7 +427,7 @@ main {
     color: #ffc127; }
 
 .boton {
-  background-color: #FF5300;
+  background-color: #ff4800;
   border-radius: 5px;
   font-size: 2rem;
   font-weight: bold;
@@ -443,8 +438,8 @@ main {
   width: 80%;
   border: none; }
   .boton:hover {
-    background-color: #212121;
-    color: #FF5300;
+    background-color: #242423;
+    color: #ff4800;
     cursor: pointer; }
 
 @media (min-width: 768px) {
@@ -497,7 +492,7 @@ main {
 
 footer {
   text-align: center;
-  color: #FF5300;
+  color: #ff4800;
   font-weight: 700;
   background-color: #fdfffc;
   margin-top: 2rem; }
@@ -508,7 +503,7 @@ footer {
   background-image: url(/build/img/imagen-4); }
 
 .contenedor-proyectos {
-  margin-top: -2rem;
+  margin-top: 2rem;
   padding: 0 1rem; }
 
 @media (min-width: 768px) {
@@ -557,6 +552,8 @@ footer {
     background-image: url(/build/img/barberia-index.webp); }
   .proyecto .upgrade {
     background-image: url(/build/img/upgrade-index.webp); }
+  .proyecto .to-do {
+    background-image: url(/build/img/todo-index-2.webp); }
   .proyecto .proyecto-cartel {
     display: flex;
     align-items: center;
@@ -593,7 +590,7 @@ footer {
       cursor: pointer; }
 
 .link {
-  color: #FF5300;
+  color: #ff4800;
   font-size: 2rem;
   font-family: "Raleway", sans-serif;
   font-weight: bold; }
@@ -645,7 +642,7 @@ footer {
   .sobremi-informacion .sobremi_foto {
     margin: 2rem auto 1rem auto;
     border-radius: 75%;
-    border: 1px solid #FF5300;
+    border: 1px solid #ff4800;
     width: 45rem; }
   .sobremi-informacion .sobremi_descripcion {
     padding: 1rem;
@@ -655,7 +652,7 @@ footer {
     color: #fdfffc;
     background-color: rgba(0, 0, 0, 0.774);
     border-radius: 10px;
-    border: 1px solid #FF5300; }
+    border: 1px solid #ff4800; }
 
 @media (min-width: 768px) {
   .sobremi-informacion {
@@ -678,7 +675,7 @@ footer {
     padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.774); }
     .skills-informacion .skills_medidores .skills {
-      color: #FF5300;
+      color: #ff4800;
       padding: 1rem;
       font-weight: 700;
       margin: 0 auto; }
@@ -686,7 +683,7 @@ footer {
 .skills-lista {
   padding: 2rem;
   list-style: none;
-  color: #FF5300;
+  color: #ff4800;
   font-weight: 900;
   border-radius: 2rem;
   margin-top: 0; }
@@ -701,7 +698,7 @@ footer {
     height: 5px;
     display: grid;
     align-items: flex-start;
-    background-color: #FF5300; }
+    background-color: #ff4800; }
   .skills-lista .tec-c {
     width: 35%;
     animation: tec-c 50s;
@@ -795,7 +792,7 @@ footer {
   cursor: pointer; }
 
 .formulario {
-  background-color: #212121;
+  background-color: #242423;
   margin: 0 auto;
   width: 100%; }
   @media (min-width: 768px) {
@@ -805,7 +802,7 @@ footer {
   .formulario fieldset {
     border: none; }
   .formulario legend {
-    color: #FF5300;
+    color: #ff4800;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.8rem;
@@ -824,9 +821,9 @@ footer {
     height: 5vh; }
   .formulario .boton-formulario {
     background-color: #fdfffc;
-    color: #FF5300; }
+    color: #ff4800; }
     .formulario .boton-formulario:hover {
-      background-color: #FF5300;
+      background-color: #ff4800;
       color: #fdfffc; }
 
 @media (min-width: 768px) {

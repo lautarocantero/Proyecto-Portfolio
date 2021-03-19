@@ -62,6 +62,18 @@
                         "./build/img/upgrade-index-3.webp",
                         "./build/img/upgrade-index-4.webp"
                 ]
+        },
+        {
+                "imagen" : "to-do",
+                "titulo":"Lista de Tareas",
+                "descripcion": "Una app sencilla de tareas por hacer.",
+                "link": "https://todo-lau.netlify.app/",
+                "galeria": [
+                        "./build/img/todo-index.webp",
+                        "./build/img/todo-index-2.webp",
+                        "./build/img/todo-index.webp",
+                        "./build/img/todo-index-2.webp"
+                ]
         }
     
         ]
