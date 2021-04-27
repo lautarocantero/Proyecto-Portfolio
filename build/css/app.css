@@ -720,7 +720,7 @@ footer {
   5% {
     width: 40%; } }
   .skills-lista .tec-c-sharp {
-    width: 50%;
+    width: 55%;
     animation: tec-c-sharp 50s;
     animation-iteration-count: infinite; }
 
@@ -728,7 +728,7 @@ footer {
   0% {
     width: 0%; }
   5% {
-    width: 50%; } }
+    width: 55%; } }
   .skills-lista .tec-html {
     width: 80%;
     animation: tec-html 50s;
@@ -750,7 +750,7 @@ footer {
   5% {
     width: 60%; } }
   .skills-lista .tec-javascript {
-    width: 30%;
+    width: 60%;
     animation: tec-javascript 50s;
     animation-iteration-count: infinite; }
 
@@ -758,9 +758,9 @@ footer {
   0% {
     width: 0%; }
   5% {
-    width: 30%; } }
+    width: 60%; } }
   .skills-lista .tec-php {
-    width: 20%;
+    width: 45%;
     animation: tec-php 50s;
     animation-iteration-count: infinite; }
 
@@ -768,9 +768,9 @@ footer {
   0% {
     width: 0%; }
   5% {
-    width: 20%; } }
+    width: 45%; } }
   .skills-lista .tec-sass {
-    width: 10%;
+    width: 55%;
     animation: tec-sass 50s;
     animation-iteration-count: infinite; }
 
@@ -778,7 +778,7 @@ footer {
   0% {
     width: 0%; }
   5% {
-    width: 10%; } }
+    width: 55%; } }
 
 .git {
   display: flex;
